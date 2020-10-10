@@ -1,0 +1,73 @@
+namespace anubhav.db.data;
+
+using anubhav.db.data::MasterData as MD;
+using anubhav.db.data::PurchaseOrder as PO;
+
+context CDSViews {
+
+	view "BusinessPartner" as select from MD.Partner{
+		PARTNERID as BPId,
+		PARTNERROLE as BPRole,
+		COMPANYNAME as Company
+	} WHERE CURRENCY = 'INR';
+	
+	view "POrders" as select from PO.Headers{
+		PURCHASEORDERID as OrderId,
+		PARTNER.PARTNERID AS PartnerId,
+		CURRENCY as CurrencyCode,
+		GROSSAMOUNT as GrossAmount,
+		NETAMOUNT as NetAmount,
+		TAXAMOUNT as TaxAmount,
+		LIFECYCLESTATUS as Status
+	};
+	
+	view "OrderStatus" as select from "POrders"{
+		case Status
+			when 'P' then 'Paid'
+			when 'R' then 'Rejected'
+			when 'C' then 'Confirmed'
+			when 'N' then 'New'
+			when 'X' then 'Cancelled' end as Status,
+		count(OrderId) as OrderCount,
+		sum(GrossAmount) as TotalAmount
+	} group by Status;
+		
+	view "SupplierOrderItems" as select from PO.Items mixin{
+		product : Association[1] to MD.Product on product.PRODUCTID = $projection.ProductId; 
+	} INTO {
+		key HEADER.PURCHASEORDERID as OrderId,
+		key PURCHASEORDERITEM as ItemNo,
+		PRODUCT.PRODUCTID AS ProductId,
+		GROSSAMOUNT as GrossAmount,
+		CURRENCY as CurrencyCode,
+		QUANTITY as Quantity,
+		QUANTITYUNIT as Unit,
+		product
+	};
+	
+	
+	view "SupplierOrder" as select from POrders mixin{
+		items : Association[1..*] to SupplierOrderItems on items.OrderId = $projection.OrderId; 
+		supplier : Association[1] to MD.Partner on supplier.PARTNERID = $projection.PartnerId; 
+	} INTO {
+		OrderId,
+		PartnerId,
+		GrossAmount,
+		Status,
+		items,
+		supplier
+	};
+	
+	view "ConsumptionView" as select from SupplierOrder{
+		supplier.COMPANYNAME as CompanyName,
+		items.GrossAmount,
+		items.CurrencyCode,
+		items.Quantity,
+		items.Unit,
+		items.product[CATEGORY = 'Others'].{ NAME as ProductName, PRODUCTID as PId },
+		items.product.PRICE as Price,
+		ceil(items.product.PRICE * items.Quantity) as CalculatedAmount
+		
+	};
+
+};
