@@ -1,0 +1,107 @@
+PRODUCTID,CATEGORY,PRICE,HISTORY.CREATEDAT,HISTORY.CHANGEDAT,NAME,SUPPLIER.PARTNERID,TAXTARIFFCODE,CURRENCY,TYPECODE,HISTORY.CREATEDBY.EMPLOYEEID,HISTORY.CHANGEDBY.EMPLOYEEID
+HT-1000,Notebooks,956,20201001,20201001,Notebook Basic 15 with 2 80 GHz quad core  15  LCD  4 GB DDR3 RAM  500 GB Hard Disc  Windows 8 Pro,100000000,1,EUR,PR,33,33
+HT-1001,Notebooks,1249,20201002,20201002,Notebook Basic 17 with 2 80 GHz quad core  17  LCD  4 GB DDR3 RAM  500 GB Hard Disc  Windows 8 Pro,100000001,1,EUR,PR,33,33
+HT-1002,Notebooks,1570,20201003,20201003,Notebook Basic 18 with 2 80 GHz quad core  18  LCD  8 GB DDR3 RAM  1000 GB Hard Disc  Windows 8 Pro,100000002,1,USD,PR,33,33
+HT-1003,Notebooks,1650,20201004,20201004,Notebook Basic 19 with 2 80 GHz quad core  19  LCD  8 GB DDR3 RAM  1000 GB Hard Disc  Windows 8 Pro,100000003,1,EUR,PR,33,33
+HT-1007,Handhelds,499,20201005,20201005,Digital Organizer with State-of-the-Art Storage Encryption,100000004,1,USD,PR,33,33
+HT-1010,Notebooks,1999,20201006,20201006,Notebook Professional 15 with 2 80 GHz quad core  15  Multitouch LCD  8 GB DDR3 RAM  500 GB SSD - DVD-Writer (DVD-R +R -RW -RAM) Windows 8 Pro,100000005,1,EUR,PR,33,33
+HT-1011,Notebooks,2299,20201007,20201007,Notebook Professional 17 with 2 80 GHz quad core  17  Multitouch LCD  8 GB DDR3 RAM  500 GB SSD - DVD-Writer (DVD-R +R -RW -RAM) Windows 8 Pro,100000006,1,JPY,PR,33,33
+HT-1020,Handhelds,129,20201008,20201008,Digital Organizer with State-of-the-Art Encryption for Storage and Network Communications,100000007,1,EUR,PR,33,33
+HT-1021,Handhelds,149,20201009,20201009,Digital Organizer with State-of-the-Art Encryption for Storage and Secure Stellite Link,100000008,1,MXN,PR,33,33
+HT-1022,Handhelds,205,20201010,20201010,32 GB Digital Assistant with high-resolution color screen,100000009,1,ARS,PR,33,33
+HT-1023,Handhelds,239,20201011,20201011,64 GB Digital Assistant with high-resolution color screen and synthesized voice output,100000010,1,USD,PR,33,33
+HT-1030,Flat screens,230,20201012,20201012,Optimum Hi-Resolution max. 1920 x 1080 @ 85Hz  Dot Pitch: 0.27mm,100000011,1,EUR,PR,33,33
+HT-1031,Flat screens,285,20201013,20201013,Optimum Hi-Resolution max. 1920 x 1200 @ 85Hz  Dot Pitch: 0.26mm,100000012,1,GBP,PR,33,33
+HT-1032,Flat screens,345,20201014,20201014,Optimum Hi-Resolution max. 2560 x 1440 @ 85Hz  Dot Pitch: 0.25mm,100000013,1,EUR,PR,33,33
+HT-1035,Flat screens,399,20201015,20201015,Optimum Hi-Resolution max. 1600 x 1200 @ 85Hz  Dot Pitch: 0.24mm,100000014,1,USD,PR,33,33
+HT-1036,Flat screens,430,20201016,20201016,Optimum Hi-Resolution max. 2048 x 1080 @ 85Hz  Dot Pitch: 0.26mm,100000015,1,CAD,PR,33,33
+HT-1037,Flat screens,1430,20201017,20201017,Optimum Hi-Resolution max. 2016 x 1512 @ 85Hz  Dot Pitch: 0.24mm,100000016,1,MXN,PR,33,33
+HT-1040,Laser printers,830,20201018,20201018,Print 2400 dpi image quality color documents at speeds of up to 32 ppm (color) or 36 ppm (monochrome)  letter A4. Powerful 500 MHz processor  512MB of memory,100000017,1,EUR,PR,33,33
+HT-1041,Laser printers,490,20201019,20201019,Up to 22 ppm color or 24 ppm monochrome A4 letter  powerful 500 MHz processor and 128MB of memory,100000018,1,ARS,PR,33,33
+HT-1042,Laser printers,349,20201020,20201020,Print up to 25 ppm letter and 24 ppm A4 color or monochrome  with a first-page-out-time of less than 13 seconds for monochrome and less than 15 seconds for color,100000019,1,EUR,PR,33,33
+HT-1050,Ink jet printers,139,20201021,20201021,4800 dpi x 1200 dpi - up to 35 ppm (mono)   up to 34 ppm (color) - capacity: 250 sheets - Hi-Speed USB  Ethernet,100000020,1,RUB,PR,33,33
+HT-1051,Ink jet printers,99,20201022,20201022,1000 dpi x 1000 dpi - up to 35 ppm (mono)   up to 34 ppm (color) - capacity: 250 sheets - Hi-Speed USB - excellent dimensions for the small office,100000021,1,USD,PR,33,33
+HT-1052,Ink jet printers,170,20201023,20201023,4800 dpi x 1200 dpi - up to 35 ppm (mono)   up to 34 ppm (color) - capacity: 250 sheets - Hi-Speed USB2.0  Ethernet,100000022,1,EUR,PR,33,33
+HT-1055,Multi function printers,99,20201024,20201024,1000 dpi x 1000 dpi - up to 16 ppm (mono)   up to 15 ppm (color)- capacity 80 sheets - scanner (216 x 297 mm  1200dpi x 2400dpi),100000023,1,EUR,PR,33,33
+HT-1056,Multi function printers,119,20201025,20201025,1200 dpi x 1200 dpi - up to 25 ppm (mono)   up to 24 ppm (color)- capacity 80 sheets - scanner (216 x 297 mm  2400dpi x 4800dpi  high resolution),100000024,1,JPY,PR,33,33
+HT-1060,Mice,9,20201026,20201026,Cordless Optical USB Mice  Laptop  Color: Black  Plug&Play,100000025,1,EUR,PR,33,33
+HT-1061,Mice,7,20201027,20201027,Optical USB  PS 2 Mouse  Color: Blue  3-button-functionality (incl. Scroll wheel),100000026,1,EUR,PR,33,33
+HT-1062,Mice,11,20201028,20201028,Optical USB Mouse  Color: Red  5-button-functionality(incl. Scroll wheel)  Plug&Play,100000027,1,ARS,PR,33,33
+HT-1063,Keyboards,14,20201029,20201029,Ergonomic USB Keyboard for Desktop  Plug&Play,100000028,1,BRL,PR,33,33
+HT-1064,Keyboards,16,20201101,20201101,Corded Keyboard with special keys for Internet Usability  USB,100000029,1,CAD,PR,33,33
+HT-1065,Keyboards,26,20201102,20201102,Corded Ergonomic Keyboard with special keys for Media Usability  USB,100000030,1,CHF,PR,33,33
+HT-1066,High Tech,2.5,20201103,20201103,Nice mouse pad with ITelO Logo,100000031,1,USD,PR,33,33
+HT-1067,High Tech,3.5,20201104,20201104,Ergonomic mouse pad with ITelO Logo,100000032,1,EUR,PR,33,33
+HT-1068,High Tech,3.5,20201105,20201105,ITelO Mousepad Special Edition,100000033,1,USD,PR,33,33
+HT-1069,Flat screens,800,20201106,20201106,Universal card reader,100000034,1,JPY,PR,33,33
+HT-1070,Graphic cards,70.9,20201107,20201107,Proctra X: PCI-E GDDR5 3072MB,100000035,1,ARS,PR,33,33
+HT-1071,Graphic cards,81.7,20201108,20201108,Gladiator XLN: PCI-E GDDR5 3072MB DVI Out  TV Out low-noise,100000036,1,ZAR,PR,33,33
+HT-1072,Graphic cards,101.2,20201109,20201109,Hurricane GX: PCI-E 691 GFLOPS game-optimized,100000037,1,USD,PR,33,33
+HT-1073,Graphic cards,24,20201110,20201110,Hurricane GX LN: PCI-E 691 GFLOPS game-optimized  low-noise.,100000038,1,EUR,PR,33,33
+HT-1080,Scanner,51,20201111,20201111,Flatbed scanner - 9.600 9.600 dpi - 216 x 297 mm - Hi-Speed USB - Bluetooth,100000039,1,INR,PR,33,33
+HT-1081,Scanner,89,20201112,20201112,Flatbed scanner - 9.600 9.600 dpi - 216 x 297 mm - SCSI for backward compatibility,100000040,1,PLN,PR,33,33
+HT-1082,Scanner,169,20201113,20201113,Flatbed scanner - Letter - 2400 dpi x 2400 dpi - 216 x 297 mm - add-on module,100000041,1,ARS,PR,33,33
+HT-1083,Scanner,520,20201114,20201114,Flatbed scanner - A4 - 2400 dpi x 2400 dpi - 216 x 297 mm - add-on module,100000042,1,CNY,PR,33,33
+HT-1085,Scanner and Printer,1499,20201115,20201115,Copymaster,100000043,1,DKK,PR,33,33
+HT-1090,Speakers,39,20201116,20201116,PC multimedia speakers - 5 Watt (Total),100000044,1,EUR,PR,33,33
+HT-1091,Speakers,26,20201117,20201117,PC multimedia speakers - 10 Watt (Total) - 2-way,100000000,1,EUR,PR,33,33
+HT-1092,Speakers,45,20201118,20201118,PC multimedia speakers - optimized for Blutooth A2DP,100000001,1,EUR,PR,33,33
+HT-1100,Software,89.9,20201119,20201119,Complete package  1 User  Office Applications (word processing  spreadsheet  presentations),100000002,1,USD,PR,33,33
+HT-1101,Software,79.9,20201120,20201120,Complete package  1 User  Image editing  processing,100000003,1,EUR,PR,33,33
+HT-1102,Software,69,20201121,20201121,Complete package  1 User  Network Software Utilities  Useful Applications and Documentation,100000004,1,USD,PR,33,33
+HT-1103,Software,77,20201122,20201122,Complete package  1 User  different Multimedia applications  playing music  watching DVDs  only with this Smart package,100000005,1,EUR,PR,33,33
+HT-1104,Software,55,20201123,20201123,Complete package  1 User  various games for amusement  logic  action  jump&run,100000006,1,JPY,PR,33,33
+HT-1105,Software,29,20201124,20201124,Complete package  1 User  highly recommended for internet users as anti-virus protection,100000007,1,EUR,PR,33,33
+HT-1106,Software,34,20201125,20201125,Complete package  1 User  recommended for internet users  protect your PC against cyber-crime,100000008,1,MXN,PR,33,33
+HT-1107,Software,29.9,20201126,20201126,Complete package  1 User  bring your money in your mind  see what you have and what you want,100000009,1,ARS,PR,33,33
+HT-1110,Others,8.9,20201127,20201127,Robust 3m anti-burglary protection for your laptop computer,100000010,1,USD,PR,33,33
+HT-1111,Others,6.9,20201128,20201128,Robust 1m anti-burglary protection for your desktop computer,100000011,1,EUR,PR,33,33
+HT-1112,Others,39,20201129,20201129,Color webcam  color  High-Speed USB,100000012,1,GBP,PR,33,33
+HT-1113,Others,2.3,20201201,20201201,10 separately packed screen wipes,100000013,1,EUR,PR,33,33
+HT-1114,Others,69,20201202,20201202,Notebook bag  plenty of room for stationery and writing materials,100000014,1,USD,PR,33,33
+HT-1115,Hardware,42,20201203,20201203,Wireless DSL Router (available in blue  black and silver),100000015,1,CAD,PR,33,33
+HT-1116,Others,36,20201204,20201204,Wireless DSL Router   Repeater (available in blue  black and silver),100000016,1,MXN,PR,33,33
+HT-1117,Others,38,20201205,20201205,Wireless DSL Router   Repeater and Print Server (available in blue  black and silver),100000017,1,EUR,PR,33,33
+HT-1118,Others,79,20201206,20201206,USB 2.0 High-Speed 64 GB,100000018,1,ARS,PR,33,33
+HT-1120,Input device,260,20201207,20201207,Cordless Bluetooth Keyboard with English keys,100000019,1,EUR,PR,33,33
+HT-1137,Flat screens,1230,20201208,20201208,Optimum Hi-Resolution max. 2048 1536 @ 85Hz  Dot Pitch: 0.24mm,100000020,1,RUB,PR,33,33
+HT-1138,Flat screens,1211,20201209,20201209,Portable pocket Mouse with retracting cord,100000021,1,USD,PR,33,33
+HT-1210,PC,2399,20201210,20201210,PC Power Station with 3 4 Ghz quad-core  32 GB DDR3 SDRAM  feels like a PC  Windows 8 Pro,100000022,1,EUR,PR,33,33
+HT-1500,Workstation ensemble,5000,20201211,20201211,Dual socket  quad-core processing server with 1333 MHz Front Side Bus with 10Gb connectivity,100000023,1,EUR,PR,33,33
+HT-1501,Workstation ensemble,15000,20201212,20201212,Dual socket  quad-core processing server with 1644 MHz Front Side Bus with 10Gb connectivity,100000024,1,JPY,PR,33,33
+HT-1502,Workstation ensemble,25000,20201213,20201213,Dual socket  quad-core processing server with 1644 MHz Front Side Bus with 100Gb connectivity,100000025,1,EUR,PR,33,33
+HT-6130,Flat-screen television,1459,20201214,20201214,32-inch  1366x768 Pixel  16:9  HDTV ready,100000026,1,EUR,PR,33,33
+HT-6131,Flat-screen television,1199,20201215,20201215,37-inch  1366x768 Pixel  16:9  HDTV ready,100000027,1,ARS,PR,33,33
+HT-6132,Flat-screen television,899,20201216,20201216,41-inch  1366x768 Pixel  16:9  HDTV ready,100000028,1,BRL,PR,33,33
+HT-7030,Handheld,2490,20201217,20201217,Our new multifunctional Handheld with phone function in platinum,100000029,1,CAD,PR,33,33
+HT-7020,Handheld,1490,20201218,20201218,Our new multifunctional Handheld with phone function in gold,100000030,1,CHF,PR,33,33
+HT-7010,Handheld,799,20201219,20201219,Our new multifunctional Handheld with phone function in silver,100000031,1,USD,PR,33,33
+HT-7000,Handheld,549,20201220,20201220,Our new multifunctional Handheld with phone function in copper,100000032,1,EUR,PR,33,33
+HT-1095,Headset,160,20201221,20201221,5.1 Headset  40 Hz-20 kHz  Wireless,100000033,1,USD,PR,33,33
+HT-1096,Headset,120,20201222,20201222,5.1 Headset  40 Hz-20 kHz  3m cable,100000034,1,JPY,PR,33,33
+HT-1097,Headset,56,20201223,20201223,5.1 Headset  40 Hz-20 kHz  1m cable,100000035,1,ARS,PR,33,33
+HT-6123,MP3-Player,299,20201224,20201224,MP3-Player with 80 GB SSD and Color Display  can play movies,100000036,1,ZAR,PR,33,33
+HT-6122,MP3-Player,167,20201225,20201225,MP3-Player with 40 GB HDD and Color Display  can play movies,100000037,1,USD,PR,33,33
+HT-6121,MP3-Player,63,20201226,20201226,ITelo Jog-Mate 64 GB HDD and Color Display  can play movies,100000038,1,EUR,PR,33,33
+HT-6120,MP3-Player,45,20201227,20201227,64 GB USB Music-on-a-Stick,100000039,1,INR,PR,33,33
+HT-6111,Electronics,288,20201228,20201228,160 GB HDD  CD-RW  DVD+R RW  DVD-R RW  MPEG 2 (Video-DVD)  MPEG 4  VCD  SVCD  DivX  Xvid,100000040,1,PLN,PR,33,33
+HT-6110,Electronics,130,20201229,20201229,CD-RW  DVD+R RW  DVD-R RW  MPEG 2 (Video-DVD)  MPEG 4  VCD  SVCD  DivX  Xvid,100000041,1,ARS,PR,33,33
+HT-6102,Beamer,889,20200801,20200801,1080p  DLP max. 12 3 Meter  3D-ready,100000042,1,CNY,PR,33,33
+HT-6101,Beamer,679,20200802,20200802,1080p  DLP max.9 34 Meter  2D-ready,100000043,1,DKK,PR,33,33
+HT-2002,Electronics,853.99,20200803,20200803,9  LCD Screen  storage holds up to 8 hours  2 speakers included,100000044,1,EUR,PR,33,33
+HT-6100,Beamer,469,20200804,20200804,720p  DLP Projector max. 8 45 Meter  2D,100000000,1,EUR,PR,33,33
+HT-2027,Others,24.99,20200805,20200805,Removable jewel case labels  zero residues (100),100000001,1,EUR,PR,33,33
+HT-2026,Others,29.99,20200806,20200806,Quality cables for notebooks and projectors,100000002,1,USD,PR,33,33
+HT-2025,Others,44.99,20200807,20200807,Organizer and protective case for 264 CDs and DVDs,100000003,1,EUR,PR,33,33
+HT-2001,Electronics,449.99,20200808,20200808,10  LCD Screen  storage battery holds up to 8 hours,100000004,1,USD,PR,33,33
+HT-2000,Electronics,249.99,20200809,20200809,7  LCD Screen  storage battery holds up to 6 hours!,100000005,1,EUR,PR,33,33
+HT-1603,PC,1700,20200810,20200810,3 4 Ghz quad core  16 GB DDR3 SDRAM  4000 GB Hard Disc  Graphic Card: Hurricane GX  Windows 8,100000006,1,JPY,PR,33,33
+HT-1602,PC,1200,20200811,20200811,3 4 Ghz quad core  8 GB DDR3 SDRAM  2000 GB Hard Disc  Graphic Card: Gladiator MX  Windows 8,100000007,1,EUR,PR,33,33
+HT-1601,PC,900,20200812,20200812,2 8 Ghz dual core  4 GB DDR3 SDRAM  1000 GB Hard Disc  Graphic Card: Gladiator MX  Windows 8,100000008,1,MXN,PR,33,33
+HT-1600,PC,600,20200813,20200813,2 8 Ghz dual core  4 GB DDR3 SDRAM  500 GB Hard Disc  Graphic Card: Proctra X  Windows 8,100000009,1,ARS,PR,33,33
+HT-1119,Others,79,20200814,20200814,Universal Travel Adapter,100000010,1,USD,PR,33,33
+HT-8000,Notebooks,799,20200815,20200815,Notebook with 2 80 GHz dual core  4 GB DDR3 SDRAM  500 GB Hard Disc  Windows 8,100000011,1,EUR,PR,33,33
+HT-8001,Notebooks,999,20200816,20200816,Notebook with 2 80 GHz dual core  8 GB DDR3 SDRAM  500 GB Hard Disc  Windows 8,100000012,1,GBP,PR,33,33
+HT-8002,Notebooks,1199,20200817,20200817,Notebook with 2 80 GHz quad core  4 GB DDR3 SDRAM  1000 GB Hard Disc  Windows 8,100000013,1,EUR,PR,33,33
+HT-8003,Notebooks,1388,20200818,20200818,Notebook with 2 80 GHz quad core  8 GB DDR3 SDRAM  1000 GB Hard Disc  Windows 8,100000014,1,USD,PR,33,33
+AD-1000,Others,0,20200819,20200819,,100000015,1,CAD,AD,33,33

@@ -1,0 +1,9 @@
+VIEW "userViewSecure" COMMENT 'Secure User View' ( 
+     "UserId",
+	 "FirstName",
+	 "Country"
+	 ) AS SELECT "UserId",
+	 "FirstName",
+	 "Country"
+FROM "OldUsers" 
+WITH READ ONLY STRUCTURED PRIVILEGE CHECK 

@@ -1,0 +1,51 @@
+namespace anubhav.db.data;
+
+using anubhav.db.data::MasterData as MD;
+
+context PurchaseOrder {
+    
+    entity Headers {
+        key PURCHASEORDERID : Integer;
+        	HISTORY         : MD.HistoryT;
+            NOTEID          : MD.BusinessKey null;
+            PARTNER         : association[1] to MD.Partner { PARTNERID };
+            CURRENCY        : MD.CurrencyT;
+            GROSSAMOUNT     : MD.AmountT;
+            NETAMOUNT       : MD.AmountT;
+            TAXAMOUNT       : MD.AmountT;
+            LIFECYCLESTATUS : MD.StatusT;
+            APPROVALSTATUS  : MD.StatusT;
+            CONFIRMSTATUS   : MD.StatusT;
+            ORDERINGSTATUS  : MD.StatusT;
+            INVOICINGSTATUS : MD.StatusT;
+    }
+
+    entity Items {
+        key HEADER     : association[1..1] to Headers;
+        key PURCHASEORDERITEM: Integer;
+	       	PRODUCT      : association[1..1] to MD.Product { PRODUCTID };
+            NOTEID       : MD.BusinessKey null;
+            CURRENCY     : MD.CurrencyT;
+            GROSSAMOUNT  : MD.AmountT;
+            NETAMOUNT    : MD.AmountT;
+            TAXAMOUNT    : MD.AmountT;
+            QUANTITY     : MD.QuantityT;
+            QUANTITYUNIT : MD.UnitT;
+            DELIVERYDATE : UTCDateTime;
+    }
+
+    define view ItemView as
+        select from Items
+        {
+            HEADER.PURCHASEORDERID,
+            HEADER.PARTNER.PARTNERID,
+            PRODUCT.NAME,
+            CURRENCY,
+            GROSSAMOUNT,
+            NETAMOUNT,
+            TAXAMOUNT,
+            QUANTITY,
+            QUANTITYUNIT,
+            DELIVERYDATE
+        };
+};

@@ -1,0 +1,10 @@
+/*@@layout{"layoutInfo":{"x":-290,"y":-72.5}}*/
+entity Users {
+    key ID        : String(10) not null;
+        FIRSTNAME : String(60);
+        LASTNAME  : String(60);
+        GENDER    : String(6);
+        EMAIL     : String(60);
+        PHONE     : String(40);
+        PASSWORD  : String(16);
+};

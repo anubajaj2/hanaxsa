@@ -1,0 +1,5 @@
+STRUCTURED PRIVILEGE 
+    "SP_USER_VIEW"
+    FOR SELECT ON 
+    "userViewSecure"
+    WHERE "Country" = 'EU'

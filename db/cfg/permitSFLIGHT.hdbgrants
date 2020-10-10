@@ -1,0 +1,14 @@
+{
+  "ServiceName_1": {
+    "object_owner": {
+      "roles": [
+        "ANUBHAV_SFLIGHT_ACCESS"
+      ]
+    },
+    "application_user": {
+      "roles": [
+        "ANUBHAV_SFLIGHT_ACCESS"
+      ]
+    } 
+  }
+}

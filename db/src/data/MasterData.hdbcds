@@ -1,0 +1,88 @@
+namespace anubhav.db.data;
+
+context MasterData {
+    type BusinessKey : String(10);
+    type SDate : UTCDateTime;
+    type CurrencyT : String(5);
+    type AmountT : Decimal(15, 2);
+    type QuantityT : Decimal(13, 3);
+    type UnitT : String(3);
+    type StatusT : String(1);
+    type HistoryT {
+        CREATEDBY : association[1] to Employee { EMPLOYEEID };
+        CREATEDAT : LocalDate;
+        CHANGEDBY : association[1] to Employee { EMPLOYEEID };
+        CHANGEDAT : LocalDate;
+    };
+    type Name {
+        FIRST    : String(40);
+        MIDDLE   : String(40);
+        LAST     : String(40);
+        INITIALS : String(10);
+    };
+
+    entity Partner {
+        key PARTNERID    : Integer;
+            PARTNERROLE  : String(3);
+            EMAILADDRESS : String(255);
+            PHONENUMBER  : String(30);
+            FAXNUMBER    : String(30);
+            WEBADDRESS   : String(1024);
+            ADDRESSES    : association[1] to Addresses { ADDRESSID };
+            COMPANYNAME  : String(80);
+            HISTORY      : HistoryT;
+            CURRENCY     : String(5);
+    }
+
+    entity Addresses {
+        key ADDRESSID   : Integer;
+            CITY        : String(40);
+            POSTALCODE  : String(10);
+            STREET      : String(60);
+            BUILDING    : String(10);
+            COUNTRY     : String(3);
+            REGION      : String(4);
+            ADDRESSTYPE : String(2);
+            LATITUDE    : Double;
+            LONGITUDE   : Double;
+            POINT       : hana.ST_POINT;
+    }
+
+    entity Employee {
+        key EMPLOYEEID    : Integer;
+            NAME          : Name;
+            SEX           : String(1);
+            LANGUAGE      : String(1);
+            PHONENUMBER   : String(30);
+            EMAILADDRESS  : String(255);
+            LOGINNAME     : String(12);
+            ADDRESSES     : association[1] to Addresses { ADDRESSID };
+            CURRENCY      : String(5);
+            SALARYAMOUNT  : Decimal(15, 2);
+            ACCOUNTNUMBER : String(10);
+    }
+
+    entity Product {
+        key PRODUCTID     : String(10);
+            TYPECODE      : String(4);
+            CATEGORY      : String(40);
+            HISTORY       : HistoryT;
+            NAME          : String(1024);
+            SUPPLIER      : association[1] to Partner { PARTNERID };
+            TAXTARIFFCODE : String(1);
+            CURRENCY      : String(4);
+            PRICE         : Decimal(15, 2);
+    }
+
+    entity UserDetails {
+        key USERID    : Integer;
+            EMAIL     : String(255);
+            FIRSTNAME : String(40);
+            LASTNAME  : String(40);
+    }
+
+    entity CurrencyCodes {
+        key CODE     : String(3);
+            CURRENCY : String(80);
+    }
+}

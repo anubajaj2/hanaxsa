@@ -1,0 +1,9 @@
+{
+  "anubhav.db.data.synonyms::Users": {
+    "target": {
+      "object": "Users",
+      "schema": "USER_DB_1",
+      "database": "HDB"
+    }
+  }
+}

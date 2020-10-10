@@ -1,0 +1,26 @@
+{
+  "role": {
+    "name": "userViewRole",
+    "schema_privileges": [
+      {
+        "privileges": [
+          "SELECT METADATA",
+          "SELECT CDS METADATA",
+          "SELECT",
+          "INSERT",
+          "EXECUTE",
+          "DELETE",
+          "UPDATE",
+          "CREATE TEMPORARY TABLE"
+        ]
+      }
+    ],
+    "schema_analytic_privileges": [
+      {
+        "privileges": [
+          "SP_USER_VIEW"
+        ]
+      }
+    ]
+  }
+}

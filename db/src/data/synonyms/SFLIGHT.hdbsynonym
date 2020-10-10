@@ -1,0 +1,26 @@
+{
+  "anubhav.db.data.synonyms::SFLIGHT": {
+    "target": {
+      "object": "SFLIGHT",
+      "schema": "SFLIGHT"
+    }
+  },
+  "anubhav.db.data.synonyms::SPFLI": {
+    "target": {
+      "object": "SPFLI",
+      "schema": "SFLIGHT"
+    }
+  },
+  "anubhav.db.data.synonyms::SCARR": {
+    "target": {
+      "object": "SCARR",
+      "schema": "SFLIGHT"
+    }
+  },
+  "anubhav.db.data.synonyms::SBOOK": {
+    "target": {
+      "object": "SBOOK",
+      "schema": "SFLIGHT"
+    }
+  }
+}
