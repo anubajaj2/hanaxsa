@@ -85,4 +85,9 @@ context MasterData {
         key CODE     : String(3);
             CURRENCY : String(80);
     }
+    
+    entity CountryCodes {
+        key CODE     : String(3);
+            COUNTRY : String(80);
+    }
 }
