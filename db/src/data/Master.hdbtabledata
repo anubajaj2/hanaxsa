@@ -99,8 +99,27 @@
 					"SUPPLIER.PARTNERID",
 					"TAXTARIFFCODE",
 					"CURRENCY",
-					"PRICE"
+					"PRICE",
+					"NAMEID",
+					"DESCID"
 				
+                ]
+            }
+        },
+        {
+            "target_table": "anubhav.db.data::MasterData.Texts",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "anubhav.db.data.loads::texts.csv",
+                "has_header": true
+            },
+            "import_settings": {
+            	"include_filter" : [ ],            
+                "import_columns": [
+                    "TEXTID",
+                    "LANGUAGE",
+                    "ISOLANGUAGE",
+                    "TEXT"
                 ]
             }
         }

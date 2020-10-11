@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="anubhav.db.data::justforinfo" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="justforinfo.hdbcalculationview"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="anubhav.db.data::PurchaseOrder.Headers">
+    <resourceUri>anubhav.db.data::PurchaseOrder.Headers</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="anubhav.db.data::PurchaseOrder.Headers">
+  <attributes>
+    <attribute id="HISTORY_CREATEDAT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISTORY_CREATEDAT"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="HISTORY.CREATEDAT"/>
+    </attribute>
+    <attribute id="HISTORY_CHANGEDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HISTORY_CHANGEDAT"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="HISTORY.CHANGEDAT"/>
+    </attribute>
+    <attribute id="NOTEID" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOTEID"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="NOTEID"/>
+    </attribute>
+    <attribute id="CURRENCY" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRENCY"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="CURRENCY"/>
+    </attribute>
+    <attribute id="LIFECYCLESTATUS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFECYCLESTATUS"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="LIFECYCLESTATUS"/>
+    </attribute>
+    <attribute id="APPROVALSTATUS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPROVALSTATUS"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="APPROVALSTATUS"/>
+    </attribute>
+    <attribute id="CONFIRMSTATUS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONFIRMSTATUS"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="CONFIRMSTATUS"/>
+    </attribute>
+    <attribute id="ORDERINGSTATUS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORDERINGSTATUS"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="ORDERINGSTATUS"/>
+    </attribute>
+    <attribute id="INVOICINGSTATUS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INVOICINGSTATUS"/>
+      <keyMapping columnObjectName="PurchaseOrder.Headers" columnName="INVOICINGSTATUS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="PURCHASEORDERID" order="1" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PURCHASEORDERID"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="PURCHASEORDERID"/>
+    </measure>
+    <measure id="HISTORY_CREATEDBY_EMPLOYEEID" order="2" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="HISTORY_CREATEDBY_EMPLOYEEID"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="HISTORY.CREATEDBY.EMPLOYEEID"/>
+    </measure>
+    <measure id="HISTORY_CHANGEDBY_EMPLOYEEID" order="4" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="HISTORY_CHANGEDBY_EMPLOYEEID"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="HISTORY.CHANGEDBY.EMPLOYEEID"/>
+    </measure>
+    <measure id="PARTNER_PARTNERID" order="7" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PARTNER_PARTNERID"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="PARTNER.PARTNERID"/>
+    </measure>
+    <measure id="GROSSAMOUNT" order="9" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="GROSSAMOUNT"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="GROSSAMOUNT"/>
+    </measure>
+    <measure id="NETAMOUNT" order="10" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="NETAMOUNT"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="NETAMOUNT"/>
+    </measure>
+    <measure id="TAXAMOUNT" order="11" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="TAXAMOUNT"/>
+      <measureMapping columnObjectName="PurchaseOrder.Headers" columnName="TAXAMOUNT"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

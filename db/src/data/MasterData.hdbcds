@@ -72,6 +72,8 @@ context MasterData {
             TAXTARIFFCODE : String(1);
             CURRENCY      : String(4);
             PRICE         : Decimal(15, 2);
+            NAMEID		  : Integer;
+            DESCID		  : Integer;
     }
 
     entity UserDetails {
@@ -86,8 +88,12 @@ context MasterData {
             CURRENCY : String(80);
     }
     
-    entity CountryCodes {
-        key CODE     : String(3);
-            COUNTRY : String(80);
+    entity Texts {
+        key TEXTID     : Integer;
+            LANGUAGE : String(1);
+            ISOLANGUAGE : String(2);
+            TEXT: String(255);
     }
+    			
+
 }
